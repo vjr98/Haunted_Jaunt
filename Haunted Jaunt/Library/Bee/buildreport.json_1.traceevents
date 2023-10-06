@@ -1,0 +1,579 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676156783294797, "dur": 438754, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676156783295003, "dur": 1194, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676156783296198, "dur": 19724, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676156783315963, "dur": 340841, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676156783656807, "dur": 75598, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676156783732408, "dur": 1143, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676156783733721, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676156783448599, "dur": 165779, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676156783449191, "dur": 104470, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676156783596561, "dur": 6686, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676156783603249, "dur": 11127, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676156783604334, "dur": 9763, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676156783618944, "dur": 1011, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676156783617416, "dur": 2560, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676156783733812, "dur": 52, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676156783669419, "dur":1024, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783670446, "dur":860, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676156783671331, "dur":56, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676156783671387, "dur":94, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676156783671486, "dur":254, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783671740, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716114, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716121, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716124, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716141, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716142, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716148, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716175, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716177, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716178, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716181, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716198, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716200, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716201, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716202, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716218, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716220, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716220, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716224, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783716229, "dur":6963, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676156783671449, "dur":295, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783671745, "dur":2196, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783673941, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676156783673943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783674119, "dur":60, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676156783674179, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676156783674227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783674485, "dur":218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676156783674703, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676156783674769, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783674839, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676156783675261, "dur":2972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1676156783678234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783678235, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1676156783678362, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783679416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783679418, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783679544, "dur":1271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783680816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783680818, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783680962, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783680970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783680972, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783681115, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783681226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783681228, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783681363, "dur":2132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783683496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783683498, "dur":16222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783699772, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783700105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783700107, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783700325, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783700335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783700337, "dur":407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783700751, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783700889, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783700896, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783701145, "dur":4798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783705944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783705946, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783706114, "dur":1898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783708023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783708026, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783708200, "dur":1438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783709639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783709642, "dur":406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783710054, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783710799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783710801, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783710939, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783711517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783711518, "dur":343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783711866, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783711873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783711875, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783712011, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783712513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783712515, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783712897, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783713412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783713414, "dur":194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783713614, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783714224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783714226, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783714498, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783714659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783714661, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676156783714877, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676156783714883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783714884, "dur":170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676156783715058, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676156783715065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783715096, "dur":218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676156783715319, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1676156783715329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676156783715330, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1676156783715493, "dur":602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783671453, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783671767, "dur":2196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783673963, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676156783673980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783674261, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676156783674624, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676156783674662, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783674737, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676156783675136, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676156783675238, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783675324, "dur":279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676156783675612, "dur":993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783676606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783676608, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783676732, "dur":960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783677700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783677703, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783677831, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783677840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783677841, "dur":116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783677960, "dur":958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783678919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783678929, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783679048, "dur":2013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783681062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783681064, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783681211, "dur":1183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783682395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783682397, "dur":11686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783694127, "dur":5652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783699781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783699783, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783699927, "dur":964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783700892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783700936, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783701163, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783701170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783701172, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783701323, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783701330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783701331, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783701538, "dur":6261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783707828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783707831, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783707998, "dur":2368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783710367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783710369, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783710529, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783710683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783710685, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783710823, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783711292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783711294, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783711419, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783712004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783712013, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783712150, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783712606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783712608, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783712989, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783713083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783713085, "dur":279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783713369, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783713836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783713838, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783714047, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783714422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783714424, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676156783714584, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1676156783714593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783714622, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1676156783714890, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676156783714896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676156783714898, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676156783715447, "dur":677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783671455, "dur":315, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783671770, "dur":2213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783673984, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1676156783674284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783674312, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1676156783674929, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676156783675183, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783675271, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676156783675448, "dur":1452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt.exe" }}
+,{ "pid":12345, "tid":3, "ts":1676156783676901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783676902, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt.exe" }}
+,{ "pid":12345, "tid":3, "ts":1676156783677026, "dur":3949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783680976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783680989, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783681125, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783681132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783681134, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783681278, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783681285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783681287, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783681445, "dur":940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783682386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783682388, "dur":11697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783694096, "dur":5947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783700044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783700046, "dur":170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783700221, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783700604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783700606, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783700884, "dur":2479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783703364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783703366, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783703544, "dur":4138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783707683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783707685, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783707862, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783707954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783707956, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783708115, "dur":1682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783709798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783709800, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783709970, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783710107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783710175, "dur":161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783710340, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783710501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783710525, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783710659, "dur":1400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783712098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783712100, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783712226, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783712474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783712493, "dur":333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783712922, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783713229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783713231, "dur":258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783713526, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783713828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783713830, "dur":187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783714024, "dur":1656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783715681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676156783715683, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676156783715826, "dur":271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783671503, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783671773, "dur":2183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783673958, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676156783674062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783674277, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676156783674608, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1676156783674647, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783674740, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1676156783675290, "dur":15613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783690904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783694067, "dur":5547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783699676, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783700078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783700081, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783700253, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783700543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783700546, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783700798, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783701436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783701438, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783701621, "dur":1795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783703417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783703419, "dur":178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783703603, "dur":4137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783707741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783707743, "dur":226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783707976, "dur":2200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783710177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783710179, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783710571, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783710875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783710877, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783711002, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783711474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783711476, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783711615, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783712008, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783712015, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783712167, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783712404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783712406, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783712568, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783712575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783712577, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783713198, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783713319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783713321, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783713521, "dur":1278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783714800, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783714830, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676156783714967, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1676156783715102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676156783715104, "dur":367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1676156783715478, "dur":653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783671457, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783671771, "dur":2214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783673985, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1676156783674256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783674314, "dur":256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1676156783674637, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1676156783674870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783674873, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1676156783675253, "dur":6395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783681649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783681663, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783681823, "dur":838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783682662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783682664, "dur":16968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783699706, "dur":1134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783700841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783700843, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783701038, "dur":6988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783708027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783708029, "dur":178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783708219, "dur":2287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783710532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783710542, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783710725, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783711191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783711193, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783711318, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783711578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783711581, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783711742, "dur":1124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783712867, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783712986, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783713270, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783713774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783713776, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783713948, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783713954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783713967, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783714133, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783714327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783714329, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676156783714525, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1676156783714641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783714805, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1676156783715219, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1676156783715271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676156783715273, "dur":153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1676156783715455, "dur":673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783671503, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783671774, "dur":2187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783673962, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676156783674027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783674269, "dur":376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676156783674695, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676156783674829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783674832, "dur":268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676156783675192, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1676156783675235, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783675331, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1676156783675527, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676156783675535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783675591, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676156783675762, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783676309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783676311, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783676435, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783677095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783677097, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783677213, "dur":957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783678171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783678173, "dur":118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783678295, "dur":1994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783680290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783680292, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783680432, "dur":1725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783682158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783682160, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783682307, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783682704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783682707, "dur":16902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783699673, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783700204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783700206, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783700389, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783700407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783700417, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783700626, "dur":5417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783706044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783706055, "dur":161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783706221, "dur":5456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783711678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783711680, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783711814, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783711820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783711822, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783711947, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783711964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783711965, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783712106, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783712547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783712549, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783712993, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783713012, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783713048, "dur":437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783713519, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783714238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783714240, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783714417, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783714615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783714617, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676156783714780, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1676156783714787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783714788, "dur":330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1676156783715137, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1676156783715173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676156783715175, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1676156783715391, "dur":726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783671504, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783671775, "dur":2190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783673965, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1676156783674058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783674262, "dur":393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1676156783674708, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1676156783674744, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783674844, "dur":280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1676156783675211, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1676156783675257, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783675324, "dur":186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1676156783675517, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1676156783675525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783675593, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1676156783675740, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783675851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783675898, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783676045, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783676087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783676098, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783676240, "dur":1238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783677479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783677481, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783677602, "dur":2972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783680575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783680577, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783680721, "dur":1899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783682622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783682624, "dur":17066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783699733, "dur":687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783700421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783700424, "dur":230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783700699, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783700899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783700915, "dur":289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783701210, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783701218, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783701220, "dur":185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783701412, "dur":6387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783707804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783707806, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783707986, "dur":1745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783709732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783709734, "dur":330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783710111, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783710141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783710143, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783710331, "dur":1151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783711484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783711485, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783711710, "dur":1006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783712717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783712719, "dur":309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783713183, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783713596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783713598, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783713746, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783714224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783714226, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783714442, "dur":1469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783715912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676156783715914, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676156783716086, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1676156783716086, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783671505, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783671777, "dur":2193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783673970, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676156783674525, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783674649, "dur":505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676156783675218, "dur":1448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783676667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783676747, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783676880, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783676887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783676889, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783677017, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783677717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783677719, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783677855, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783678699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783678701, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783678824, "dur":2833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783681658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783681670, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783681824, "dur":5428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783687254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783687259, "dur":12487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783699752, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783700287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783700289, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783700536, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783700657, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783700738, "dur":173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783700947, "dur":2440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783703388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783703391, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783703671, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783703930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783703933, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783704092, "dur":5570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783709663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783709665, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783709827, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783709835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783709836, "dur":231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783710086, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783710266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783710268, "dur":187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783710473, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783710683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783710685, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783710903, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783711423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783711424, "dur":116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783711544, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783711552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783711564, "dur":153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783711722, "dur":670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783712393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783712395, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783712537, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783712721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783712869, "dur":372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783713248, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783713350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783713352, "dur":206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783713569, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714198, "dur":195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714399, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714423, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714626, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714639, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714919, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783714928, "dur":423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1676156783715356, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1676156783715363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676156783715426, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Windows Build/John Lemon's Haunted Jaunt/John Lemon's Haunted Jaunt_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1676156783715582, "dur":515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676156783723856, "dur":399, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676156783733876, "dur": 309, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676156783733706, "dur": 486, "ph": "X", "name": "Write chrome-trace events", "args": {} },
